@@ -1,0 +1,55 @@
+html { 
+    background-color: darkslategrey;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+h1{ 
+    margin: auto;
+}
+
+.container{
+    display:grid;
+    justify-items: center;
+    margin: auto;
+    background-color: lightgrey;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 300px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+
+.completed{
+    text-decoration: line-through
+}
+
+#toDo {
+    display: inline;
+}
+
+#listform{
+    justify-content: center;
+}
+
+#listBlock {
+    margin-bottom: 20px;
+}
+
+button{ 
+    font-family: 'Quicksand', sans-serif;
+}
+
+.removeButton {
+    height: 35px;
+    width: 100px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: palevioletred;
+}
+
+.removeButton:hover {
+    cursor: pointer;
+    border-style: none;
+    background-color:tomato;
+}
